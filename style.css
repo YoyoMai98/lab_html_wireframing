@@ -40,7 +40,6 @@ main {
 
 h2 {
     margin: 20px;
-    margin-top: 10px;
     border-bottom: 0.6px solid rgb(136, 136, 136, 0.5);
 }
 
@@ -68,8 +67,35 @@ h2 {
     font-size: 14px;
 }
 
+.seasons h2 {
+    margin-top: 10px;
+}
+
+.seasons__list {
+    list-style: none;
+}
+
+.seasons__list li {
+    margin-bottom: 10px;
+}
+
+.seasons__list a {
+    background-color: rgba(85, 79, 79, 0.8);
+    padding: 2px 5px 1px 5px;
+}
+
+
+.top_10_episodes {
+    margin-top: 30px;
+}
+
 .top_10_episodes a {
-    background-color: rgb(59, 53, 53, 0.8);
+    background-color: rgba(85, 79, 79, 0.8);
+    padding: 3px;
+}
+
+.top_10_episodes p {
+    margin: 10px 0 15px 8px;
 }
 
 form {
@@ -79,13 +105,17 @@ form {
 }
 
 input {
-    margin-bottom: 10px;
+    margin: 3px 0 10px 0;
     height: 25px;
     width: 50%;
 }
 
+#topic {
+    margin-top: 0;
+}
+
 #content {
-    height: 100px;
+    height: 120px;
 }
 
 footer {
